@@ -49,7 +49,6 @@ jobs:
           channel: 'stable'
       - run: flutter config --enable-windows-desktop
       - run: flutter build windows
-      - run: dart run msix:create
 
       # Create nightly release
       - name: Create zip
